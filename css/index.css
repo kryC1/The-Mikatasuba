@@ -1,0 +1,201 @@
+/* Add a black background color to the top navigation */
+.navBar {
+  /*background-color: #333;*/
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.header {
+	text-align: center;
+	line-height: 0.5;
+	font-family: Arial, sans-serif;
+	color: #e7eaf6;
+  padding-bottom: 20px;
+}
+
+.top {
+	margin: 20px;
+}
+
+.body {
+	background-color: black;
+}
+
+.bottom {
+  position: relative;
+  margin: 20px;
+  width: 100%;
+}
+
+.column1 {
+  color: #ececec;
+  line-height: 0.1;
+  font-family: Arial, sans-serif;
+  width: 50%;
+  padding: 10px;
+}
+
+.column2 {
+  font-family: Arial, sans-serif;
+  width: 25%;
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  padding: 10px;
+}
+
+.row2 {
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center ;
+}
+
+
+/*HOME PAGE START*/
+.middleMain {
+  width: 90%;
+  height: 600px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0px 0px 10px 3px grey;
+  overflow: hidden;
+  border: 5px solid #db996c;
+}
+
+.middleMain figure {
+  margin: 0px;
+  position: relative;
+  width: 500%;
+  left: 0px;
+  transition: 1s ease-in-out;
+}
+
+.middleMain figure img {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.btn_next, .btn_prev {
+  position: absolute;
+  top: 45%;
+  cursor: pointer;
+  color: white;
+  background-color: #db996c;
+  padding: 20px;
+  font-size: 30px;
+  border: none;
+  width: 50px;
+}
+
+.btn_next {
+  right: 0px;
+}
+
+.btn_prev {
+  left: 0px;
+}
+
+.onImage {
+  font-family: Arial, sans-serif;
+  background-color: #db996c;
+  width: 5%;
+  font-size: 30px;
+  position: absolute;
+  left: 12%;
+  top: 150px;
+  text-align: center;
+}
+
+.evtit {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  font-size: 400%;
+  font-family: Arial, sans-serif;
+  color: #db996c;
+}
+/*HOME PAGE END*/
+
+
+/*About US PAGE START*/
+
+
+ .facebookImage {
+  /* background-color: #db996c;*/
+  background-color: #db996c;
+  width: 25px;
+   height: 25px;
+   position: fixed;
+   top: 35%;
+ }
+ .twitterImage {
+  /* background-color: #db996c;*/
+   background-color: #db996c;
+   width: 25px;
+   height: 25px;
+   position: fixed;
+   top: 41%;
+ }
+ .instagramImage {
+  /* background-color: #db996c;*/
+   background-color: #db996c;
+   width: 25px;
+   height: 25px;
+   position: fixed;
+   top: 47%;
+ }
+ .youtubeImage {
+   /* background-color: #db996c;*/
+    background-color: #db996c;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 53%;
+  }
+  .WhoWeAre{
+   color:  #04AA6D;
+   font-size: 30px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+
+
+   margin-top: 40px;
+   width: 70%;
+
+  }
+
+  .textaboutus{
+    color:  white;
+    font-size: 20px;
+ 
+   }
+
+/*About US PAGE END*/
+
+
+
+
